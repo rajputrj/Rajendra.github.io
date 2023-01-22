@@ -1,0 +1,43 @@
+@media (max-width: 1024px){
+	.bannerWrapper{
+		padding: 20px 0;
+		min-height: auto
+	}
+	.aboutSection, .skills, .portfolio, .contact{
+		padding: 50px 0 0 0;
+		min-height: auto;
+	}
+	.nav-item.active:before{
+		display: none;	
+	}
+	.aboutSection .heading h2:before, .skills .heading h2:before, .portfolio .heading h2:before, .contact .heading h2:before{
+		font-size: 56px
+	}
+	.bannerWrapper .myImage{
+		padding-top: 25px;
+	}
+}
+@media (max-width: 768px){
+	.aboutInfo .table tr{
+		display: grid;
+	}
+	.bannerWrapper .myImage{
+		width: 80%;
+		margin: 20px auto
+	}
+	.mbHide{
+		display: none;
+	}
+	#navbarCollapse ul li a{
+		text-align: center;
+	};
+	.bg-dark{
+		padding-bottom: 20px;
+	}
+	.aboutSection .heading h2, .skills .heading h2, .portfolio .heading h2, .contact .heading h2{
+		margin-top: 40px;
+	}
+	.aboutSection .heading h2:before, .skills .heading h2:before, .portfolio .heading h2:before, .contact .heading h2:before{
+		font-size: 54px
+	}
+}
